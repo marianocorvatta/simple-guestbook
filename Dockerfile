@@ -1,4 +1,4 @@
 FROM webdevops/php-nginx
-WORKDIR /app
 EXPOSE 80
-COPY . .
+COPY . /app
+RUN if test -d /app/Guestbook; then chmod 777 /app/Guestbook; fi
