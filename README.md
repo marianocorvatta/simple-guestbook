@@ -10,4 +10,14 @@ The goal of this repo is learn several docker tasks.
 
 `docker run --rm -p 8080:80 pilasguru/simple-guestbook`
 
+## Pull image
+
+`docker pull pilasguru/simple-gustbook`
+
+[https://hub.docker.com/repository/docker/pilasguru/simple-gustbook](https://hub.docker.com/repository/docker/pilasguru/simple-gustbook)
+
+## License
+
+[MIT License](LICENSE)
+
 :x
