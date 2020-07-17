@@ -72,7 +72,7 @@
       echo "<td width=\"5%\" style=\"text-align:center\"><span style=\"font-weight:bold\">" . $Index . "</span></td>\n";
       echo "<td width=\"85%\"><span style=\"font-weight:bold\">Name:</span> " . $data['name'] . "<br />";
       echo "<span style=\"font-weight:bold\">Email:</span> " . $data['email'] . "<br />";
-      echo "<td width=\"10%\" style=\"text-align:center\">" . "<a href='guestbook.php?" . "action=Delete%20Message&" . 
+      echo "<td width=\"10%\" style=\"text-align:center\">" . "<a href='index.php?" . "action=Delete%20Message&" . 
           "message=" . ($Index -1) . "'>Delete this entry</a>" . "</td>\n";
       echo "</tr>\n"; 
       ++$Index; 
@@ -84,9 +84,9 @@
 
 <p>
   <a href="sign-book.php">Sign here ...</a><br /><br />
-  > <a href="index.php?action=Sort%20Ascending">Sort guests A-Z</a> |
-  <a href="index.php?action=Sort%20Descending">Sort guests Z-A</a> |
-  <a href="index.php?action=Remove%20Duplicates">Remove duplicate visitors</a> <
+  *| <a href="index.php?action=Sort%20Ascending">Sort guests A-Z</a> *|*
+  <a href="index.php?action=Sort%20Descending">Sort guests Z-A</a> *|*
+  <a href="index.php?action=Remove%20Duplicates">Remove duplicate visitors</a> |*
 </p>   
 
 </body>
